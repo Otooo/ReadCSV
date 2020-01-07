@@ -1,0 +1,23 @@
+{
+    "name": "oto/read-csv",
+    "description": "Read rows in CSV file and then insert into a tables of a database",
+    "type": "library",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oto",
+            "email": "otoengc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0",
+        "vlucas/phpdotenv": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "ReadCSV\\": "src/"
+        }
+    }
+}

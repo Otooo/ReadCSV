@@ -1,5 +1,5 @@
 {
-    "name": "oto/read-csv",
+    "name": "oto/reader-file",
     "description": "Read rows in CSV file and then insert into a tables of a database",
     "type": "library",
     "version": "0.0.1",
@@ -12,12 +12,11 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.2.0",
-        "vlucas/phpdotenv": "^3.6"
+        "php": ">=7.2.0"
     },
     "autoload": {
         "psr-4": {
-            "ReadCSV\\": "src/"
+            "ReaderFile\\": "src/"
         }
     }
 }

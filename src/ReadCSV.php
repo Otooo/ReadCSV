@@ -1,21 +1,14 @@
 <?php 
 
-namespace ReadCSV;
+namespace ReaderFile;
 
 class ReadCSV 
 {
-    /** 
-     * Database connection
-     */ 
-    protected $connection;
-
     /**
      * 
      */
-    public function __construct($conn)
-    {
-        $this->connection = $conn;
-    }
+    public function __construct()
+    {}
 
     /**
      * Reads the content of CSV file and storages

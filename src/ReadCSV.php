@@ -2,8 +2,6 @@
 
 namespace ReadCSV;
 
-require __DIR__ . '/vendor/autoload.php';
-
 class ReadCSV 
 {
     /** 
@@ -42,8 +40,9 @@ class ReadCSV
                         $header[$c] = $data[$c] ?? "campo_desconhecido_{$c}";
                     }
                 } else {
+                    $line = [];
                     for ($c=0; $c < $headerCount; $c++) {
-                        array_push($line, [$header[$c] => $data[$c] ?? '']);
+                        $line[$header[$c]] = $data[$c] ?? '';
                     }
                     array_push($content, $line);
                 }

@@ -2,13 +2,17 @@
 
 namespace ReaderFile;
 
-class ReadCSV 
+use ReaderFile\Reader;
+
+class ReadCSV extends Reader
 {
     /**
-     * 
+     * Constructor of class
      */
-    public function __construct()
-    {}
+    public function __construct() 
+    {
+        parent::__construct();
+    }
 
     /**
      * Reads the content of CSV file and storages
@@ -19,7 +23,7 @@ class ReadCSV
      * @param filepath Path of file to read
      * @return content array of values
      */
-    public function readFile($filepath, $delimiter=',') {
+    public static function readFile($filepath, $delimiter=';') {
         $content = [];
         $header = [];
         $headerCount = 0;

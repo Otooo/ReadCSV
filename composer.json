@@ -2,7 +2,6 @@
     "name": "oto/reader-file",
     "description": "Read rows in CSV file and then insert into a tables of a database",
     "type": "library",
-    "version": "0.0.1",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +9,6 @@
             "email": "otoengc@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.2.0"
     },
@@ -18,5 +16,7 @@
         "psr-4": {
             "ReaderFile\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
 }

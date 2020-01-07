@@ -1,11 +1,10 @@
 <?php
 
 require __DIR__ . '/vendor/autoload.php';
-require_once __DIR__ . '/config.php';
 
 use ReaderFile\ReadCSV;
 
-$readCSV = new ReadCSV($con);
+$readCSV = new ReadCSV();
 
 $result = $readCSV->readFile(__DIR__ . '/file/file.csv');
 

@@ -1,5 +1,5 @@
-cor,nome
-yoga,shun
-azul,yoga
-verde,shiryuu
-vermelho,seya
+cor;nome;força
+yoga;shun;
+azul;yoga;100
+verde;shiryuu;99
+vermelho;seya;

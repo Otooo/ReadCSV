@@ -1,0 +1,22 @@
+{
+    "name": "oto/reader-file",
+    "description": "Read rows in a file and then returns",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oto",
+            "email": "otoengc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ReaderFile\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

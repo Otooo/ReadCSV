@@ -1,0 +1,19 @@
+name: CI
+
+on: 
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    name: Update
+    runs-on: [self-hosted, linux]
+
+    steps:
+    # - uses: actions/checkout@v1
+    - name: First step
+      run: |
+        echo Pulling branch
+        git pull
+      shell: bash

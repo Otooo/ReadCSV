@@ -1,6 +1,6 @@
 {
     "name": "oto/reader-file",
-    "description": "Read rows in CSV file and then insert into a tables of a database",
+    "description": "Read rows in a file and then returns",
     "type": "library",
     "license": "MIT",
     "authors": [

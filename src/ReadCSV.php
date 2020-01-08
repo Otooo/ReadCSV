@@ -20,7 +20,9 @@ class ReadCSV extends Reader
      * 
      * The array format is: array[row][header] => collumn
      * 
-     * @param filepath Path of file to read
+     * @throws ErrorException if don't found the file => "failed to open stream: No such file or directory"
+     * 
+     * @param filepath path of file to read
      * @return content array of values
      */
     public static function readFile($filepath, $delimiter=';') {
